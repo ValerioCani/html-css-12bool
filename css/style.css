@@ -23,6 +23,6 @@ div>div{
     line-height: 5px;
 }
 
-main{
+.container, .container-fluid {
     margin-bottom: 30px;
 }
