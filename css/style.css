@@ -7,8 +7,22 @@
 div{
     background-color: #1d60c5;
     border: solid 1px #ffffff;
-    height: 30px;
+    height: 50px;
     text-align: center;
     color: #ffffff;
     line-height: 30px;
+    padding: 10px;
+}
+
+div>div{
+    background-color: #1ea80c;
+    border: solid 1px #000000;
+    height: 100%;
+    text-align: center;
+    color: #000000;
+    line-height: 5px;
+}
+
+main{
+    margin-bottom: 30px;
 }

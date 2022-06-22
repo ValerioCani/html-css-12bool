@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main class="container">
+    <main class="container-fluid">
         <section class="row">
             <div class="col-1"> 1col</div>
             <div class="col-1"> 1col</div>
@@ -47,6 +47,52 @@
             <div class="col-2"> 2col</div>
             <div class="col-6"> 6col</div>
             <div class="col-1"> 1col</div>
+        </section>
+
+        <section class="row">
+            <div class="row col-6">
+                <div class="col-2">nested 2col</div>
+                <div class="col-2">nested 2col</div>
+                <div class="col-8">nested 8col</div>
+            </div>
+            <div class="row col-6">
+                <div class="col-6">nested 6col</div>
+                <div class="col-6">nested 6col</div>
+            </div>
+        </section>
+    </main>
+    <!-- utilizzo altri main come contenitori con margine inferiore anche se non è semanticamente corretto -->
+    <main class="container">
+        <section class="row">
+            <div class="col-12"></div>
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+            <div class="col-2"></div>
+            <div class="col-10"></div>
+            <div class="col-3"></div>
+            <div class="col-9"></div>
+            <div class="col-4"></div>
+            <div class="col-8"></div>
+            <div class="col-5"></div>
+            <div class="col-7"></div>
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </section>
+    </main>
+
+    <main class="container-fluid">
+        <section class="row">
+            <div class="col-1 col-offset-11"> 1col</div>
+            <div class="col-2 col-offset-10"> 2col</div>
+            <div class="col-3 col-offset-9"> 3col</div>
+            <div class="col-4 col-offset-8"> 4col</div>
+            <div class="col-5 col-offset-7"> 5col</div>
+            <div class="col-6 col-offset-6"> 6col</div>
+            <div class="col-7 col-offset-5"> 7col</div>
+            <div class="col-8 col-offset-4"> 8col</div>
+            <div class="col-9 col-offset-3"> 9col</div>
+            <div class="col-10 col-offset-2"> 10col</div>
+            <div class="col-11 col-offset-1"> 11col</div>
         </section>
     </main>
 </body>
