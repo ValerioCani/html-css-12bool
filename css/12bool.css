@@ -130,3 +130,19 @@
 .col-offset-11{
     margin-left: calc((100% / 12) * 11);
 }
+
+.f-center{
+    align-self: center;
+}
+
+.f-end{
+    align-self: flex-end;
+}
+
+.sp-ar{
+    justify-content: space-around;
+}
+
+.sp-bet{
+    justify-content: space-between;
+}
