@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: #1d60c5;
+    border: solid 1px #ffffff;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 30px;
+}
